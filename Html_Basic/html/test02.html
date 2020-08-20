@@ -5,27 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .d1 div{
-            margin: 0 auto;
+        .d1{
+            width: 200px;
+            height: 200px;
+            background-color: #aaa;
+            text-align: center;
+            vertical-align:middle;
+            display:table-cell;
         }
-        .d1>div>span{
-            color: tomato;
-        }
-        .d1 div ul li span{
-            color: skyblue;
+        .d1 > span{
+            /* vertical-align:middle; */
         }
     </style>
 </head>
 <body>
     <div class="d1">
-        <div style="width: 200px;height: 200px;background-color: #faa;">
-            <span>test text</span>
-            <ul>
-                <li>
-                    <span>test text 2</span>
-                </li>
-            </ul>
-        </div>
+        <span>test</span>
     </div>
 </body>
 </html>

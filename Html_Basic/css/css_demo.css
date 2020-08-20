@@ -44,12 +44,16 @@
   -o-background-size: cover;
   background-size: cover;
 }
-
+/* -----------标签选择器----------- */
+span{
+  color:rgba(255, 255,255,0.5);
+}
 /* -----------其他选择器----------- */
 .dhead_top_left > img{
-    width: 40px
-    ;
+    width: 40px;
 }
 .dhead_top_left > div{
-    text-align:center;
+  text-align: center;
+  display:block;
+
 }
